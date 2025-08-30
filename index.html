@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌐 Unit Converter</h1>
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Temperature Converter -->
+    <section class="converter">
+      <h2>🌡 Temperature Converter</h2>
+      <input type="number" id="tempInput" placeholder="Enter value">
+      <select id="tempUnit">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+      </select>
+      <div class="result" id="tempResult"></div>
+    </section>
+
+    <!-- Length Converter -->
+    <section class="converter">
+      <h2>📏 Length Converter</h2>
+      <input type="number" id="lengthInput" placeholder="Enter value">
+      <select id="lengthUnit">
+        <option value="m">Meters</option>
+        <option value="km">Kilometers</option>
+        <option value="cm">Centimeters</option>
+        <option value="ft">Feet</option>
+        <option value="in">Inches</option>
+      </select>
+      <div class="result" id="lengthResult"></div>
+    </section>
+
+    <!-- Weight Converter -->
+    <section class="converter">
+      <h2>⚖ Weight Converter</h2>
+      <input type="number" id="weightInput" placeholder="Enter value">
+      <select id="weightUnit">
+        <option value="kg">Kilograms</option>
+        <option value="g">Grams</option>
+        <option value="lb">Pounds</option>
+      </select>
+      <div class="result" id="weightResult"></div>
+    </section>
+
+    <!-- Time Converter -->
+    <section class="converter">
+      <h2>⏱ Time Converter</h2>
+      <input type="number" id="timeInput" placeholder="Enter value">
+      <select id="timeUnit">
+        <option value="s">Seconds</option>
+        <option value="min">Minutes</option>
+        <option value="hr">Hours</option>
+      </select>
+      <div class="result" id="timeResult"></div>
+    </section>
+
+    <!-- Conversion History -->
+    <section class="converter">
+      <h2>📜 Conversion History</h2>
+      <ul id="history"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
