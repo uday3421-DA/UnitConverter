@@ -62,7 +62,7 @@ input, select {
 }
 
 #history li {
-  background: #f4f4f4;
+  background: none;
   margin: 5px;
   padding: 8px;
   border-radius: 6px;
@@ -97,4 +97,5 @@ button {
 button:hover {
   background: #e6b800;
 }
+
 
