@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  background: linear-gradient(135deg, white 0%, white 100%);
   min-height: 100vh;
   transition: background 0.3s, color 0.3s;
 }
@@ -97,3 +97,4 @@ button {
 button:hover {
   background: #e6b800;
 }
+
